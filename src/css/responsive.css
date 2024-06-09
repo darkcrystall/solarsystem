@@ -1,0 +1,47 @@
+@media(max-width: 620px) {
+    .cabecalho {
+        padding: 30px 0;
+    }
+
+    .planets-slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .btn-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+    }
+
+    .lista-planets {
+        height: 350px;
+    }
+
+    .cartao {
+        height: auto;
+        width: auto;
+    }
+}
+
+@media(max-width: 480px) {
+    .cartao .titulo {
+        font-size: 16px;
+    }
+
+    .cartao .texto {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+
+@media (max-height: 1280px) {
+    .lista-planets {
+        height: 350px;
+    }
+
+    .cartao {
+        height: auto;
+        width: auto;
+    }
+}
